@@ -5,3 +5,155 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+  margin: 50px;
+}
+.no-display {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    margin-top: 150px;
+  }
+  h1 {
+    font-size: 3em;
+    color: rgb(54, 54, 54);
+  }
+  h2 {
+    font-size: 45px;
+  }
+
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    padding: 50px 0px;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+  }
+  .imagesize {
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid lightgray;
+    margin: 20px;
+    padding: 20px;
+  }
+  .imagefooter {
+    width: 20%;
+    height: 20%;
+  }
+
+  .footerul {
+    list-style-type: none;
+  }
+  .colunas {
+    display: flex;
+    font-size: 0.9em;
+    margin-left: 30px;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .flexcontainer2 {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .flag {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logosocial {
+    font-size: 40px;
+  }
+
+  .social2 {
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    color: #5b5e6d;
+  }
+  #intro {
+    text-align: left;
+  }
+  p,
+  li,
+  span {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5b5e6d;
+    margin: 20px 0px;
+    line-height: 35px;
+    text-align: center;
+  }
+  input {
+    border: solid gray 1px;
+    width: 500px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .button-discovery {
+    width: 500px;
+    height: 80px;
+    color: rgba(0, 0, 255, 0.74);
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border-color: rgba(0, 0, 255, 0.281);
+    background-color: white;
+  }
+  .button-purple {
+    background-color: #192592;
+    width: 500px;
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid lightgray 1px;
+    background-color: white;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .nav-bar img {
+    width: 150px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 960px) {
+  html {
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+  html {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    background-color: gray;
+  }
+}
